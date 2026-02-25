@@ -3,48 +3,280 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Wedding Invitation</title>
+  <title>Sarah & James — Wedding</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:wght@300;400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet" />
 </head>
 <body>
 
-  <div class="invitation">
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content fade-in">
+      <p class="hero-pre">We are getting married</p>
+      <h1 class="hero-names">Sarah <span class="amp">&</span> James</h1>
+      <p class="hero-date">14 · 06 · 2026</p>
+      <a href="#details" class="scroll-down">
+        <span></span>
+      </a>
+    </div>
+  </section>
 
-    <div class="top-ornament">&#10022; &#10022; &#10022;</div>
+  <!-- SAVE THE DATE -->
+  <section class="save-date" id="details">
+    <div class="container fade-in">
+      <p class="section-pre">Save the Date</p>
+      <h2 class="section-title">June 14, 2026</h2>
+      <div class="ornament">&#10022;</div>
+      <p class="section-sub">Join us as we celebrate our love and begin our forever</p>
 
-    <p class="together">Together with their families</p>
-
-    <h1 class="names">Sarah &amp; James</h1>
-
-    <p class="invite-text">joyfully invite you to celebrate their marriage</p>
-
-    <div class="divider"></div>
-
-    <div class="details">
-      <div class="detail-block">
-        <span class="label">Date</span>
-        <span class="value">Saturday, June 14, 2026</span>
-      </div>
-      <div class="detail-block">
-        <span class="label">Time</span>
-        <span class="value">4:00 PM</span>
-      </div>
-      <div class="detail-block">
-        <span class="label">Venue</span>
-        <span class="value">The Grand Garden Hall</span>
-        <span class="sub-value">123 Blossom Lane, New York, NY</span>
+      <div class="countdown" id="countdown">
+        <div class="count-block">
+          <span class="count-num" id="days">00</span>
+          <span class="count-label">Days</span>
+        </div>
+        <div class="count-sep">:</div>
+        <div class="count-block">
+          <span class="count-num" id="hours">00</span>
+          <span class="count-label">Hours</span>
+        </div>
+        <div class="count-sep">:</div>
+        <div class="count-block">
+          <span class="count-num" id="minutes">00</span>
+          <span class="count-label">Minutes</span>
+        </div>
+        <div class="count-sep">:</div>
+        <div class="count-block">
+          <span class="count-num" id="seconds">00</span>
+          <span class="count-label">Seconds</span>
+        </div>
       </div>
     </div>
+  </section>
 
-    <div class="divider"></div>
+  <!-- COUPLE -->
+  <section class="couple" id="couple">
+    <div class="container">
+      <div class="couple-grid">
+        <div class="couple-card fade-in">
+          <div class="couple-photo bride-photo"></div>
+          <h3>Sarah</h3>
+          <p class="couple-role">The Bride</p>
+          <p class="couple-desc">Dreamer, artist, and hopeless romantic. She stole his heart with one smile.</p>
+        </div>
+        <div class="couple-heart fade-in">&#10084;</div>
+        <div class="couple-card fade-in">
+          <div class="couple-photo groom-photo"></div>
+          <h3>James</h3>
+          <p class="couple-role">The Groom</p>
+          <p class="couple-desc">Adventurer, chef, and her biggest fan. He knew from the very first moment.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <p class="rsvp-text">Kindly RSVP by <strong>May 30, 2026</strong></p>
-    <a class="rsvp-btn" href="mailto:sarah.james@wedding.com">RSVP Now</a>
+  <!-- STORY -->
+  <section class="story" id="story">
+    <div class="story-bg"></div>
+    <div class="container fade-in">
+      <p class="section-pre light">Our Story</p>
+      <h2 class="section-title light">How It All Began</h2>
+      <div class="ornament light">&#10022;</div>
+      <div class="timeline">
+        <div class="tl-item fade-in">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <span class="tl-year">2020</span>
+            <h4>First Meeting</h4>
+            <p>We met at a mutual friend's dinner party on a rainy November evening.</p>
+          </div>
+        </div>
+        <div class="tl-item fade-in">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <span class="tl-year">2021</span>
+            <h4>First Date</h4>
+            <p>A spontaneous walk through the city turned into a 6-hour adventure.</p>
+          </div>
+        </div>
+        <div class="tl-item fade-in">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <span class="tl-year">2023</span>
+            <h4>The Proposal</h4>
+            <p>Under the stars in Santorini, with shaking hands and a full heart — she said yes.</p>
+          </div>
+        </div>
+        <div class="tl-item fade-in">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <span class="tl-year">2026</span>
+            <h4>The Wedding</h4>
+            <p>And now we invite you to witness the next chapter of our story.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <div class="bottom-ornament">&#10022; &#10022; &#10022;</div>
+  <!-- EVENT DETAILS -->
+  <section class="event" id="event">
+    <div class="container fade-in">
+      <p class="section-pre">When & Where</p>
+      <h2 class="section-title">Event Details</h2>
+      <div class="ornament">&#10022;</div>
 
-  </div>
+      <div class="event-grid">
+        <div class="event-card fade-in">
+          <div class="event-icon">&#9825;</div>
+          <h3>Ceremony</h3>
+          <p class="event-time">4:00 PM</p>
+          <p>The Grand Garden Hall</p>
+          <p class="event-addr">123 Blossom Lane, New York</p>
+        </div>
+        <div class="event-card fade-in">
+          <div class="event-icon">&#9836;</div>
+          <h3>Cocktails</h3>
+          <p class="event-time">5:30 PM</p>
+          <p>The Garden Terrace</p>
+          <p class="event-addr">123 Blossom Lane, New York</p>
+        </div>
+        <div class="event-card fade-in">
+          <div class="event-icon">&#10025;</div>
+          <h3>Reception</h3>
+          <p class="event-time">7:00 PM</p>
+          <p>The Grand Ballroom</p>
+          <p class="event-addr">123 Blossom Lane, New York</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- SCHEDULE -->
+  <section class="schedule" id="schedule">
+    <div class="container fade-in">
+      <p class="section-pre">The Day</p>
+      <h2 class="section-title">Schedule</h2>
+      <div class="ornament">&#10022;</div>
+
+      <div class="sched-list">
+        <div class="sched-item fade-in">
+          <span class="sched-time">3:30 PM</span>
+          <span class="sched-dot"></span>
+          <span class="sched-event">Guest Arrival & Seating</span>
+        </div>
+        <div class="sched-item fade-in">
+          <span class="sched-time">4:00 PM</span>
+          <span class="sched-dot"></span>
+          <span class="sched-event">Wedding Ceremony</span>
+        </div>
+        <div class="sched-item fade-in">
+          <span class="sched-time">4:45 PM</span>
+          <span class="sched-dot"></span>
+          <span class="sched-event">Photos & Congratulations</span>
+        </div>
+        <div class="sched-item fade-in">
+          <span class="sched-time">5:30 PM</span>
+          <span class="sched-dot"></span>
+          <span class="sched-event">Cocktail Hour</span>
+        </div>
+        <div class="sched-item fade-in">
+          <span class="sched-time">7:00 PM</span>
+          <span class="sched-dot"></span>
+          <span class="sched-event">Dinner & First Dance</span>
+        </div>
+        <div class="sched-item fade-in">
+          <span class="sched-time">9:00 PM</span>
+          <span class="sched-dot"></span>
+          <span class="sched-event">Dancing & Celebration</span>
+        </div>
+        <div class="sched-item fade-in">
+          <span class="sched-time">12:00 AM</span>
+          <span class="sched-dot"></span>
+          <span class="sched-event">Farewell & Sparkler Send-Off</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery" id="gallery">
+    <div class="container fade-in">
+      <p class="section-pre">Memories</p>
+      <h2 class="section-title">Our Gallery</h2>
+      <div class="ornament">&#10022;</div>
+    </div>
+    <div class="gallery-grid fade-in">
+      <div class="g-item g-tall" style="background-image: url('https://images.unsplash.com/photo-1519741347686-c1e331bef1c8?w=600')"></div>
+      <div class="g-item" style="background-image: url('https://images.unsplash.com/photo-1606800052052-a08af7148866?w=600')"></div>
+      <div class="g-item" style="background-image: url('https://images.unsplash.com/photo-1591604466107-ec97de577aff?w=600')"></div>
+      <div class="g-item g-wide" style="background-image: url('https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=800')"></div>
+      <div class="g-item" style="background-image: url('https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=600')"></div>
+    </div>
+  </section>
+
+  <!-- DRESS CODE -->
+  <section class="dresscode" id="dresscode">
+    <div class="dresscode-bg"></div>
+    <div class="container fade-in">
+      <p class="section-pre light">Please note</p>
+      <h2 class="section-title light">Dress Code</h2>
+      <div class="ornament light">&#10022;</div>
+      <p class="dresscode-text">We kindly ask our guests to wear</p>
+      <div class="dc-palette">
+        <div class="dc-color" style="background:#f5ede0;"></div>
+        <div class="dc-color" style="background:#d4b896;"></div>
+        <div class="dc-color" style="background:#c8a97e;"></div>
+        <div class="dc-color" style="background:#8c7355;"></div>
+        <div class="dc-color" style="background:#4a3728;"></div>
+      </div>
+      <p class="dc-label">Champagne · Blush · Gold · Taupe · Ivory</p>
+      <p class="dc-note">Please avoid white and black outfits</p>
+    </div>
+  </section>
+
+  <!-- RSVP -->
+  <section class="rsvp" id="rsvp">
+    <div class="container fade-in">
+      <p class="section-pre">Your Response</p>
+      <h2 class="section-title">RSVP</h2>
+      <div class="ornament">&#10022;</div>
+      <p class="section-sub">Kindly respond by <strong>May 30, 2026</strong></p>
+
+      <form class="rsvp-form" onsubmit="submitRSVP(event)">
+        <div class="form-row">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Email Address" required />
+        </div>
+        <div class="form-row">
+          <input type="tel" placeholder="Phone Number" />
+          <select>
+            <option value="" disabled selected>Number of Guests</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+          </select>
+        </div>
+        <div class="form-radio">
+          <label><input type="radio" name="attend" value="yes" checked /> Joyfully accepts</label>
+          <label><input type="radio" name="attend" value="no" /> Regretfully declines</label>
+        </div>
+        <textarea placeholder="Dietary requirements or special notes..."></textarea>
+        <button type="submit">Send RSVP</button>
+      </form>
+      <div class="rsvp-success" id="rsvp-success">Thank you! We can't wait to celebrate with you. &#10084;</div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <h2 class="footer-names">Sarah & James</h2>
+    <p class="footer-date">14 · 06 · 2026 · New York</p>
+    <p class="footer-note">We look forward to sharing this special day with you</p>
+    <div class="footer-ornament">&#10022; &#10022; &#10022;</div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
